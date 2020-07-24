@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Lobster?selection.family=Lobster#standard-styles">
+    <link rel="stylesheet" href="google.com/specihttps://fonts.googmen/Lobster?selection.family=Lobster#standard-styles">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="vendors/icofont/icofont.css">
     <link rel="stylesheet" href="css/main.css">
@@ -15,8 +15,9 @@
         <div class="container">
             <div class="header-wrapper">
                 <div class="logo">
-                    <i class="icofont-diamond"></i>
-                    <h2>BRAVE</h2>
+                    <h2><i class="icofont-diamond"></i>
+                      BRAVE
+                    </h2>
                     <div>
                     <P><i>light</i></P>
                     </div> 
@@ -38,7 +39,9 @@
     <div id="hero">
         <P>Who I Am</P>
         <h1>ABOUT ME</h1>
-        <a href="">7397395479</a>
+        <div class="hero-contact">
+          <a href="7397395479">7397395479</a>
+        </div>
     </div>
     <div id="about">
         <div class="container">
@@ -48,31 +51,48 @@
                         <img src="images/ronald-about-img.jpg" alt="main img">
                     </div>
                     <div class="about-form">
-                        <h2>GET IN TOUCH</h2>
+                        <div class="about-head">
+                           <h2>GET IN TOUCH</h2>
+                        </div>
                         <div class="form-name">
-                           <label for="full-name">Firstname</label>
+                           <label for="full-name" class="form-label">Firstname</label>
                            <input type="text" name="fullname" id="full-name"> 
                         </div>
                         <div class="form-email">
-                           <label for="email-id">E-mail</label>
+                           <label for="email-id" class="form-label">E-mail</label>
                            <input type="email" name="email" id="email-id">
                         </div>
                         <div class="form-message">
-                           <label for="messages">Message</label>
+                           <label for="messages" class="form-label">Message</label>
                            <textarea name="message" id="messages"></textarea>
                         </div>
                     </div>
-                    <div class="primary-button">
+                    <div class="about-button">
                         <label for="submit-form"></label>
-                        <input type="submit" value="SEND MESSAGE" id="submit-form">
+                        <input type="submit" value="SEND MESSAGE" id="submit-form" class="primary-button">
                     </div>
                 </div>
                 <div class="about-details">
-                    <p>Marketer</p>
-                    <h1>RONALD CHEN</h1>
-                    <P>Ronald is one of the main person behind Brave. He is the multitalented marketer and a former lead strategist who is a true mine of creative ideas for everyone at our team.</P>
+                    <div class="about-details-head">
+                       <h3>Marketer</h3>
+                       <h1>RONALD CHEN</h1>
+                       <P>Ronald is one of the main person behind Brave. He is the multitalented marketer and a former lead strategist who is a true mine of creative ideas for everyone at our team.</P>
+                     </div>
                     <div class="about-circle">
+                        <div class="about-circle-1">
+                            <h2>75%</h2>
+                            <p>Marketing</p>
+                        </div>
+                        <div class="about-circle-2">
+                            <h1>50%</h1>
+                            <p>Strategy</p>
 
+                        </div>
+                        <div class="about-circle-3">
+                            <h1>25%</h1>
+                            <p>Design</p>
+
+                        </div>
                     </div>
                     <div class="about-4-info">
                         <div class="about-skills">
@@ -93,14 +113,18 @@
                         </div>
                         <div class="about-contact">
                             <h2>CONTACT INFORMATION</h2>
-                            <div>
-                            <a href=""><i class="icofont-google-map"></i> 2130 Fulton Street, San Diego, CA94117-1080 USA</a>
-                            </div>
-                            <div>
-                            <a href=""> <i class="icofont-phone"></i> 1-800-1234-567</a>
+                            <div class="about-contact-wrapper">
+                                <ul class="about-contact-icon">
+                                    <li>
+                                        
+                                    </li>
+                                </ul>
+
                             </div>
                             <ul class="icon-wrapper">
+                                <div class="icons">
                                 <li><i class="icofont-facebook"></i></li>
+                                </div>
                                 <li><i class="icofont-twitter"></i></li>
                                 <li><i class="icofont-instagram"></i></li>
                                 <li><i class="icofont-google-plus"></i></li>
@@ -146,9 +170,9 @@
                     <h3>Marketing School</h3>
                 </div>
             </div>
-            <div class="primary-button">
+            <div class="project-button">
                 <label for="submit-form"></label>
-                <input type="submit" value="VIEW ALL PROJECTS" id="submit-form">
+                <input type="submit" value="VIEW ALL PROJECTS" id="submit-form" class="primary-button">
             </div>
         </div>
     </div>
@@ -156,13 +180,17 @@
         <div class="container">
             <div class="testimonial-top">
               <h1>TESTIMONIALS</h1>
-              <img src="images/testi-img-1.jpg" alt="">
-              <p>Every writer needs to refresh the look of his/hers website from time to time, and that’s why I was looking for a new design for my website. I do not often choose website templates, but Brave really amazed me with its functionality. Actually, I doubt that you may find another template so powerful to cover all your design needs.</p>
+              <div class="testimonial-top-img">
+                <img src="images/testi-img-1.jpg" alt="">
+              </div>
+                <p>Every writer needs to refresh the look of his/hers website from time to time, and that’s why I was looking for a new design for my website. I do not often choose website templates, but Brave really amazed me with its functionality. Actually, I doubt that you may find another template so powerful to cover all your design needs.</p>
             </div>
             <div class="testimonial-bottom">
-              <p>,,</p>
-              <h3>Philip Lawrence</h3>
-              <p>Regular Customer</p>
+                <div class="testimonial-bottom-comma">
+                  <p>,,</p>
+                </div>
+                  <h3>Philip Lawrence</h3>
+                  <p>Regular Customer</p>
             </div>
         </div>
     </div>
@@ -174,12 +202,27 @@
                     <p>Brave can give you lots of advantages, from which you will surely benefit.</p>
                 </div>
                 <div class="consult-right">
+                    <div class="consult-button">
+                        <label for="submit-form"></label>
+                        <input type="submit" value="LEARN MORE" id="submit-form" class="primary-button-1">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <footer>
         <div class="container">
+            <ul class="footer-icon-wrapper">
+                <li><i class="icofont-facebook"></i></li>
+                <li><i class="icofont-twitter"></i></li>
+                <li><i class="icofont-instagram"></i></li>
+                <li><i class="icofont-google-plus"></i></li>
+                <li><i class="icofont-linkedin"></i></li>
+                
+            </ul>
+            <div class="footer-words">
+                <p>&copy 2020 All Rights Reserved Terms of USe And Private Policy</p>
+            </div>
 
         </div>
     </footer>

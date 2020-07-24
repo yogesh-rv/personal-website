@@ -255,8 +255,6 @@ header{
     line-height: 22px;
     color: #777373;
 
-
-
 }
 .about-4-info .about-skills{
     padding-bottom: 42px;
@@ -273,19 +271,53 @@ header{
 .about-4-info .about-contact{
 
 }
-.about-contact .icon-wrapper{
+.about-contact-wrapper{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
+    padding-bottom: 26px;
 
 }
-.about-contact .icon-wrapper li {
-    text-decoration: none;
-
+.about-contact-icon {
+    flex-basis: 15%;
 
 }
-.icons li i{
-    text-decoration: none;
+.about-icon-between{
+    padding-bottom: 49px;
 }
+
+.about-contact-icon li{
+    list-style: none;
+
+}
+.about-contact-text {
+    flex-basis: 85%;
+
+}
+.about-text-between{
+    padding-bottom: 18px;
+
+}
+.about-contact-text li{
+    list-style: none;
+    font-size: 17px;
+    line-height: 21px;
+
+}
+.icon-wrapper{
+    display: flex;
+}
+.icon-wrapper li{
+    list-style: none;
+    font-size: 21px;
+    padding-right: 27px;
+    color: #c5c4c4;
+    padding-bottom: 65px;
+}
+
+
+
+
+
 #project{
     background-color: #000038;
 
@@ -438,20 +470,30 @@ header{
 }
 footer{
 
-    background-color: black;
+    background-color: #211f1f;
 }
 .footer-icon-wrapper{
     display: flex;
+    position: relative;
+    left: 52px;
+    padding-top: 49px;
+    
 }
 .footer-icon-wrapper li {
-    text-decoration: none;
+    list-style: none;
     color: white;
-    text-align: center;
+    font-size: 21px;
+    background-color: #2d2b2b;;
+    border-radius: 39%;
+    padding: 8px;
 
 }
 .footer-words{
     color: white;
     text-align: center;
+    padding-top: 44px;
+    padding-bottom: 46px;
+    line-height: 23px;
 }
 
 

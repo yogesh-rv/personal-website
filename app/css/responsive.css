@@ -1,3 +1,175 @@
-{
-    "server": { "baseDir": "./app"}
+@media (min-width: 480px){
+    .about-circle{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 768px){
+    header {
+        padding-bottom: 14px;
+    }
+    #hero p {
+        font-size: 29px;
+        padding-bottom: 28px;
+    }
+    #hero h1 {
+        font-size: 40px;
+        padding-bottom: 68px;
+    }
+    #hero .hero-contact{
+        padding-bottom: 68px;
+    }
+    .about-wrapper-2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-form .about-head {
+        padding-top: 72px;
+        font-family: monospace;
+    }
+    .about-form h2 {
+        font-size: 23px;
+    }
+    #about .about-img{
+        flex-basis: 48%;
+        padding-top: 162px;
+
+    }
+    #about .about-form {
+        flex-basis: 48%;
+    }
+    .form-name input {
+        height: 55px;
+    }
+    .form-email input{
+        height: 55px;
+    }
+    .form-message textarea{
+        height: 135px;
+    }
+    .primary-button{
+        padding: 19px 51px;
+    }    
+    .about-details .about-details-head h3 {
+        font-size: 24px;
+    }
+    .about-details .about-details-head h1 {
+        font-size: 25px;
+    }
+    .about-4-info {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .about-4-info .about-skills {
+        flex-basis: 46%;
+    }
+    .about-4-info .about-awards {
+        flex-basis: 46%;
+
+    }   
+    .about-4-info .about-certificates {
+        padding-bottom: 42px;
+        flex-basis: 46%;
+    }
+    .about-4-info .about-contact {
+        flex-basis: 46%;
+    
+    }    
+    .about-4-info h2 {
+        font-size: 19px;
+    font-family: sans-serif;
+    }
+    .about-4-info p{
+        font-size: 16px;
+    }
+    .project-header h2 {
+        font-size: 30px;
+    }
+    .project-header p {
+        margin: 0px 56px;
+    }
+    .project-images {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+    }
+    .project-img-1 {
+        flex-basis: 48%;
+    
+    }
+    .project-img-2 {
+        flex-basis: 48%;
+    }
+    .project-img-3{
+        flex-basis: 48%;
+    }
+    .project-img-4{
+        flex-basis: 48%;
+    }
+    .project-img-4{
+        flex-basis: 48%;
+    }
+    .project-img-5{
+        flex-basis: 48%;
+    }
+    .project-img-6{
+        flex-basis: 45%;
+    }
+    .project-images img {
+        height: 329px;
+    }
+    .testimonial-top h1 {
+        font-size: 29px;
+    }
+    .testimonial-top p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .testimonial-bottom-comma p {
+        font-size: 53px;
+    }
+    .testimonial-bottom h3 {
+        font-size: 21px;
+    }
+    .consult-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .consult-wrapper .consult-left {
+        flex-basis: 65%;
+    }
+    .consult-right {
+        flex-basis: 30%;
+    }
+    .consult-left h1 {
+        font-size: 29px;
+    }
+    .consult-left p {
+        font-size: 19px;
+        line-height: 32px;
+    }
+    .primary-button-1 {
+        padding: 18px 48px;
+    }
+    .footer-icon-wrapper {
+        position: relative;
+        left: 268px;
+    }
+
+
+}
+@media (min-width: 992px){
+    .about-wrapper-2 {
+        justify-content: flex-start;
+    }
+    #about .about-img {
+        padding-top: 133px;
+    }
+    .about-4-info p {
+        font-size: 18px;
+        line-height: 29px;
+    }
 }

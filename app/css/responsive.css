@@ -125,7 +125,7 @@
         font-size: 29px;
     }
     .testimonial-top p {
-        font-size: 22px;
+        font-size: 21px;
         line-height: 30px;
     }
     .testimonial-bottom-comma p {
@@ -162,14 +162,202 @@
 
 }
 @media (min-width: 992px){
+    .header-wrapper .logo {
+        padding-left: 405px;
+
+    }
+    .header-wrapper .logo h2 {
+        font-size: 25px;
+        padding-top: 18px;
+    }
+    .header-wrapper .logo p {
+        padding-left: 76px;
+    }
     .about-wrapper-2 {
         justify-content: flex-start;
     }
     #about .about-img {
         padding-top: 133px;
     }
+    .about-details .about-details-head p {
+        font-size: 18px;
+        padding-bottom: 48px;
+    }
+    .about-circle {
+        padding-bottom: 23px;
+    }
+    .about-contact-text {
+        margin-right: 113px;
+    }
+    .about-text-between {
+        padding-bottom: 19px;
+    
+    }
+    .about-4-info p {
+        line-height: 35px;
+    } 
     .about-4-info p {
         font-size: 18px;
         line-height: 29px;
     }
+    #project .project-header {
+        padding-top: 80PX;
+    }
+    .project-header p {
+        margin: 0px 128px;
+        font-size: 18px;
+    
+    }
+    .project-img-1 {
+        flex-basis: 32%;
+    }
+    .project-img-2 {
+        flex-basis: 32%;
+
+
+    }
+    .project-img-3 {
+        flex-basis: 32%;
+
+
+    }
+    .project-img-4 {
+        flex-basis: 32%;
+
+
+    }
+    .project-img-5 {
+        flex-basis: 32%;
+
+        
+    }
+    .project-img-6 {
+        flex-basis: 32%;
+
+
+    }
+    .project-images h3 {
+        font-size: 23px;
+        padding-bottom: 75px;
+    }
+    .project-button {
+        padding-bottom: 72px;
+    }
+    .testimonial-top p {
+        font-size: 21px;
+        margin: 0 76px;
+    }
+    .consult-left h1 {
+        margin-right: 109px;
+        font-size: 31px;
+    }
+    .consult-left p {
+        padding-bottom: 72px;
+    }
+    .footer-icon-wrapper {
+        position: relative;
+        left: 361px;
+    }
+    @media (min-width: 1200px){
+        .project-header h2 {
+            font-size: 39px;
+        }
+        .project-header p {
+            margin: 0px 224px;
+            font-size: 18px;
+            line-height: 28px;
+        }
+        .project-images img {
+            height: 374px;
+        }
+        .testimonial-top h1 {
+            font-size: 36px;
+        }
+        .testimonial-top img {
+            max-width: 102px;
+        }
+        .testimonial-top p {
+            font-size: 24px;
+            margin: 0 112px;
+            line-height: 37px;
+        }
+        .testimonial-bottom h3 {
+            font-size: 24px;
+            padding-bottom: 20px;
+        }
+        .testimonial-bottom {
+            padding-bottom: 98px;
+        }
+        .consult-left p {
+            margin-right: 49px;
+            font-size: 20px;
+        }
+        .consult-wrapper {
+            padding-top: 117px;
+            padding-bottom: 44px;
+        }
+        .consult-left h1 {
+            font-size: 36px;
+        }
+        .about-wrapper-2 {
+            display: block;
+            flex-basis: 30%;
+            margin-left: 10px;
+        }
+        .about-wrapper-1{
+            display: flex;
+            justify-content: space-between;
+        }
+        #about .about-details {
+            flex-basis: 60%;
+            margin-top: 137px;
+        
+        }
+        .about-img img {
+            max-width: 330px;
+            max-height: 330px;
+        }
+        .form-name input {
+            width: 92%;
+        }
+        .form-email input {
+            width: 92%;
+
+        }
+        .form-message textarea {
+            width: 92%;
+        }
+        .about-details .about-details-head h1 {
+            font-size: 35px;
+        }
+        .about-circle-1 h2 {
+            font-size: 23px;
+        }
+        .about-circle-2 h1 {
+            font-size: 23px;
+        }
+        .about-circle-3 h1 {
+            font-size: 23px;
+
+        }
+        .about-circle {
+            padding-bottom: 55px;
+        }
+        .about-4-info h2 {
+            font-size: 19px;
+        }
+        .about-4-info .about-certificates,
+        .about-4-info .about-contact{
+            padding-top: 75px;
+         }
+
+
+    }
+
+
+
+
+
+
+
 }

@@ -33,7 +33,6 @@
     #about .about-img{
         flex-basis: 48%;
         padding-top: 162px;
-
     }
     #about .about-form {
         flex-basis: 48%;
@@ -66,7 +65,6 @@
     }
     .about-4-info .about-awards {
         flex-basis: 46%;
-
     }   
     .about-4-info .about-certificates {
         padding-bottom: 42px;
@@ -74,7 +72,6 @@
     }
     .about-4-info .about-contact {
         flex-basis: 46%;
-    
     }    
     .about-4-info h2 {
         font-size: 19px;
@@ -94,11 +91,9 @@
         justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: row;
-    
     }
     .project-img-1 {
         flex-basis: 48%;
-    
     }
     .project-img-2 {
         flex-basis: 48%;
@@ -158,13 +153,10 @@
         position: relative;
         left: 268px;
     }
-
-
 }
 @media (min-width: 992px){
     .header-wrapper .logo {
         padding-left: 405px;
-
     }
     .header-wrapper .logo h2 {
         font-size: 25px;
@@ -191,7 +183,6 @@
     }
     .about-text-between {
         padding-bottom: 19px;
-    
     }
     .about-4-info p {
         line-height: 35px;
@@ -206,35 +197,24 @@
     .project-header p {
         margin: 0px 128px;
         font-size: 18px;
-    
     }
     .project-img-1 {
         flex-basis: 32%;
     }
     .project-img-2 {
         flex-basis: 32%;
-
-
     }
     .project-img-3 {
         flex-basis: 32%;
-
-
     }
     .project-img-4 {
         flex-basis: 32%;
-
-
     }
     .project-img-5 {
-        flex-basis: 32%;
-
-        
+        flex-basis: 32%;   
     }
     .project-img-6 {
         flex-basis: 32%;
-
-
     }
     .project-images h3 {
         font-size: 23px;
@@ -259,6 +239,9 @@
         left: 361px;
     }
     @media (min-width: 1200px){
+        .header-wrapper .logo {
+            padding-left: 4px;
+        }
         .project-header h2 {
             font-size: 39px;
         }
@@ -311,7 +294,6 @@
         #about .about-details {
             flex-basis: 60%;
             margin-top: 137px;
-        
         }
         .about-img img {
             max-width: 330px;
@@ -322,7 +304,6 @@
         }
         .form-email input {
             width: 92%;
-
         }
         .form-message textarea {
             width: 92%;
@@ -338,7 +319,6 @@
         }
         .about-circle-3 h1 {
             font-size: 23px;
-
         }
         .about-circle {
             padding-bottom: 55px;
@@ -350,14 +330,5 @@
         .about-4-info .about-contact{
             padding-top: 75px;
          }
-
-
     }
-
-
-
-
-
-
-
 }

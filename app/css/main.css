@@ -43,23 +43,6 @@ header{
     display: flex;
     display: inline;
 }
-.header-wrapper .logo i{
-    font-size: 21px;
-    color: #ea9b08;
-}
-.header-wrapper .logo h2{
-    color: white;
-}
-.header-wrapper .logo p{
-    color: white;
-    padding-left: 50px;
-}
-.header-wrapper .logo p i{
-
-}
-.header-wrapper .navi{
-
-}
 .header-wrapper .navigation{
     display: none;
 }

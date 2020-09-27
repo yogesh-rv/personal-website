@@ -242,6 +242,29 @@
         .header-wrapper .logo {
             padding-left: 4px;
         }
+        #hero p {
+            font-size: 29px;
+            padding-bottom: 24px;
+            padding-top: 0px;
+        }
+        #hero h1 {
+            font-size: 60px;
+            padding-bottom: 50px;
+        }
+        .over-image-1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .over-img-1{
+            position: relative;
+            bottom: 30px;
+            left: 104px;  
+        }
+        .over-img-2{
+            position: relative;
+            bottom: 23px;
+            right: 28px;
+        }
         .project-header h2 {
             font-size: 39px;
         }
@@ -285,7 +308,7 @@
         .about-wrapper-2 {
             display: block;
             flex-basis: 30%;
-            margin-left: 10px;
+            margin-left: 52px;
         }
         .about-wrapper-1{
             display: flex;
@@ -330,5 +353,10 @@
         .about-4-info .about-contact{
             padding-top: 75px;
          }
+         .footer-icon-wrapper {
+            position: relative;
+            left: 570px;
+        }
+
     }
 }

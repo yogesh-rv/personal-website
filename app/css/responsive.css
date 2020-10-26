@@ -48,90 +48,26 @@
     }
     .primary-button{
         padding: 19px 51px;
-    }    
-    .skills-heading{
-        display: inline-block;
-    }
-    .skills-heading h2{
-        font-size: 53px;
-        border-radius: 0px 58px;
-        padding: 12px 40px;
-        margin: 0px 104px 0px 0px;
-    }
-    .skills-heading p{
-        text-align: right;
-        font-size: 16px;
-        padding-right: 105px;
-    }
-    .container-fluid {
-        width: 92%;
-        padding: 0px;
-    }
-    .container-fluid h3 {
-        font-size: 50px;
-        padding: 68px 0px 24px;
-        line-height: 57px;
-    }
-    .container-fluid h3 b {
-        font-size: 50px;
-    }
-    .container-fluid p {
-        color: #000000a6;
-        font-size: 16px;
-        line-height: 25px;
-    }
-    .container-fluid img {
-        width: 80%;
-        height: 94vh;
-        margin-top: -18px;
-    }
+    }  
     #skills {
         padding-top: 19px;
     }
     .skill-set{
         display: flex;
-
+        justify-content: space-between;
         padding-top: 33px;
-    }
-    skills-wrapper-last{
-
-
     }
     .professional{
         flex-basis: 30%;
-        padding-right: 18px;
     }
     .personal{
         flex-basis: 30%;
         margin-top: 0px;
-        padding-right: 18px;
     }
     .languages{
         flex-basis: 30%;
         margin-top: 0px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .about-details .about-details-head h3 {
         font-size: 24px;
     }
@@ -275,75 +211,7 @@
         font-size: 18px;
         line-height: 29px;
     }
-    .prof-wrapper-1{
-    }
-   .container-fluid{
-       display: flex;
-       justify-content: space-between;
-
-   }
-   .skills-heading{
-    display: inline-block;
-}
-.skills-heading h2{
-    font-size: 53px;
-    border-radius: 0px 58px;
-    padding: 12px 40px;
-    margin: 0px 104px 0px 0px;
-}
-.skills-heading p{
-    text-align: right;
-    font-size: 16px;
-    padding-right: 105px;
-}
-.container-fluid {
-    width: 92%;
-    padding: 0px;
-    padding-bottom: 62;
-}
-.container-fluid h3 {
-    font-size: 50px;
-    padding: 68px 0px 24px;
-    line-height: 57px;
-}
-.container-fluid h3 b {
-    font-size: 50px;
-}
-.container-fluid p {
-    color: #000000a6;
-    font-size: 16px;
-    line-height: 25px;
-}
-.container-fluid img {
-    width: 80%;
-    height: 94vh;
-    margin-top: -18px;
-}
-#skills {
-    padding-top: 19px;
-}
-.skill-set{
-    display: flex;
-
-    padding-top: 33px;
-}
-skills-wrapper-last{
-
-
-}
-.professional{
-    flex-basis: 30%;
-    padding-right: 101px;
-}
-.personal{
-    flex-basis: 30%;
-    margin-top: 0px;
-    padding-right: 18px;
-}
-.languages{
-    flex-basis: 30%;
-    margin-top: 0px;
-}
+   
     #project .project-header {
         padding-top: 80PX;
     }
@@ -391,205 +259,132 @@ skills-wrapper-last{
         position: relative;
         left: 361px;
     }
-    @media (min-width: 1200px){
-        .header-wrapper .logo {
-            padding-left: 4px;
-        }
-        #hero p {
-            font-size: 29px;
-            padding-bottom: 24px;
-            padding-top: 0px;
-        }
-        #hero h1 {
-            font-size: 60px;
-            padding-bottom: 50px;
-        }
-        .over-image-1{
-            display: flex;
-            justify-content: space-between;
-        }
-        .over-img-1{
-            position: relative;
-            bottom: 30px;
-            left: 104px;  
-        }
-        .over-img-2{
-            position: relative;
-            bottom: 23px;
-            right: 28px;
-        }
-        .prof-wrapper-1{
-        
-        }
-        .skills-heading h2{
-            font-size: 55px;
-            padding: 10px 40px;
-        }
-        .container-fluid {
-            margin: 0px 25px;
-        }
-        .skill-set {
-            padding-left: 35px;
-        }
-        .personal {
-            margin-top: 0px;
-        }
-        .skills-heading{
-            display: inline-block;
-        }
-        .skills-heading h2{
-            font-size: 53px;
-            border-radius: 0px 58px;
-            padding: 12px 40px;
-            margin: 0px 104px 0px 0px;
-        }
-        .skills-heading p{
-            text-align: right;
-            font-size: 16px;
-            padding-right: 105px;
-        }
-        .container-fluid {
-            width: 92%;
-            padding: 0px;
-        }
-        .container-fluid h3 {
-            font-size: 50px;
-            padding: 68px 0px 24px;
-            line-height: 57px;
-        }
-        .container-fluid h3 b {
-            font-size: 50px;
-        }
-        .container-fluid p {
-            color: #000000a6;
-            font-size: 16px;
-            line-height: 25px;
-        }
-        .container-fluid img {
-            width: 80%;
-            height: 94vh;
-            margin-top: -18px;
-        }
-        #skills {
-            padding-top: 19px;
-        }
-        .skill-set{
-            display: flex;
-    
-            padding-top: 33px;
-        }
-        skills-wrapper-last{
-    
-    
-        }
-        .professional{
-            flex-basis: 30%;
-            margin-right: 18px;
-        }
-        .personal{
-            flex-basis: 30%;
-            margin-top: 0px;
-            margin-right: 18px;
-        }
-        .languages{
-            flex-basis: 30%;
-            margin-top: 0px;
-        }
-
-
-
-        .project-header h2 {
-            font-size: 39px;
-        }
-        .project-header p {
-            margin: 0px 224px;
-            font-size: 18px;
-            line-height: 28px;
-        }
-        .project-images img {
-            height: 374px;
-        }
-        .testimonial-top h1 {
-            font-size: 36px;
-        }
-        .testimonial-top img {
-            max-width: 102px;
-        }
-        .testimonial-top p {
-            font-size: 24px;
-            margin: 0 112px;
-            line-height: 37px;
-        }
-        .testimonial-bottom h3 {
-            font-size: 24px;
-            padding-bottom: 20px;
-        }
-        .testimonial-bottom {
-            padding-bottom: 98px;
-        }
-        .consult-left p {
-            margin-right: 49px;
-            font-size: 20px;
-        }
-        .consult-wrapper {
-            padding-top: 117px;
-            padding-bottom: 44px;
-        }
-        .consult-left h1 {
-            font-size: 36px;
-        }
-        .about-wrapper-2 {
-            display: block;
-            flex-basis: 30%;
-            margin-left: 52px;
-        }
-        .about-wrapper-1{
-            display: flex;
-            justify-content: space-between;
-        }
-        #about .about-details {
-            flex-basis: 60%;
-            margin-top: 137px;
-        }
-        .about-img img {
-            max-width: 330px;
-            max-height: 330px;
-        }
-        .form-name input {
-            width: 92%;
-        }
-        .form-email input {
-            width: 92%;
-        }
-        .form-message textarea {
-            width: 92%;
-        }
-        .about-details .about-details-head h1 {
-            font-size: 35px;
-        }
-        .about-circle-1 h2 {
-            font-size: 23px;
-        }
-        .about-circle-2 h1 {
-            font-size: 23px;
-        }
-        .about-circle-3 h1 {
-            font-size: 23px;
-        }
-        .about-circle {
-            padding-bottom: 55px;
-        }
-        .about-4-info h2 {
-            font-size: 19px;
-        }
-        .about-4-info .about-certificates,
-        .about-4-info .about-contact{
-            padding-top: 75px;
-         }
-         .footer-icon-wrapper {
-            position: relative;
-            left: 570px;
-        }
-
+  
+}
+@media (min-width: 1200px){
+    .header-wrapper .logo {
+        padding-left: 4px;
     }
+    #hero p {
+        font-size: 29px;
+        padding-bottom: 24px;
+        padding-top: 0px;
+    }
+    #hero h1 {
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+    .over-image-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .over-img-1{
+        position: relative;
+        bottom: 30px;
+        left: 104px;  
+    }
+    .over-img-2{
+        position: relative;
+        bottom: 23px;
+        right: 28px;
+    }
+    .project-header h2 {
+        font-size: 39px;
+    }
+    .project-header p {
+        margin: 0px 224px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .project-images img {
+        height: 374px;
+    }
+    .testimonial-top h1 {
+        font-size: 36px;
+    }
+    .testimonial-top img {
+        max-width: 102px;
+    }
+    .testimonial-top p {
+        font-size: 24px;
+        margin: 0 112px;
+        line-height: 37px;
+    }
+    .testimonial-bottom h3 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .testimonial-bottom {
+        padding-bottom: 98px;
+    }
+    .consult-left p {
+        margin-right: 49px;
+        font-size: 20px;
+    }
+    .consult-wrapper {
+        padding-top: 117px;
+        padding-bottom: 44px;
+    }
+    .consult-left h1 {
+        font-size: 36px;
+    }
+    .about-wrapper-2 {
+        display: block;
+        flex-basis: 30%;
+        margin-left: 52px;
+    }
+    .about-wrapper-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    #about .about-details {
+        flex-basis: 60%;
+        margin-top: 137px;
+    }
+    .about-img img {
+        max-width: 330px;
+        max-height: 330px;
+    }
+    .form-name input {
+        width: 92%;
+    }
+    .form-email input {
+        width: 92%;
+    }
+    .form-message textarea {
+        width: 92%;
+    }
+    .about-details .about-details-head h1 {
+        font-size: 35px;
+    }
+    .about-circle-1 h2 {
+        font-size: 23px;
+    }
+    .about-circle-2 h1 {
+        font-size: 23px;
+    }
+    .about-circle-3 h1 {
+        font-size: 23px;
+    }
+    .about-circle {
+        padding-bottom: 55px;
+    }
+    .about-4-info h2 {
+        font-size: 19px;
+    }
+    .about-4-info .about-certificates,
+    .about-4-info .about-contact{
+        padding-top: 75px;
+     }
+     .skill-set {
+        padding-left: 35px;
+    }
+    .personal {
+        margin-top: 0px;
+    }
+     .footer-icon-wrapper {
+        position: relative;
+        left: 570px;
+    }
+
 }

@@ -275,52 +275,6 @@ header{
     color: #c5c4c4;
     padding-bottom: 65px;
 }
-.skills-heading h2{
-    display: block;
-    font-size: 29px;
-    padding: 13px 20px 10px 40px;
-    background-color: #f69bac;
-    color: #fff;
-    line-height: 1.1;
-    font-weight: 300;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 5px;
-    border-radius: 0 50px;
-}
-.skills-heading p{
-    font-weight: 100;
-    color: #4b4453e8;
-    text-align: right;
-    padding: 3px 20px;
-}
-.container-fluid{
-    width: 86%;
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.container-fluid h3{
-    font-size: 46px;
-    line-height: 52px;
-    font-weight: 500;
-    padding: 60px 0px 30px;
-    color: #000000bf;
-}
-.container-fluid h3 b{
-    color: #f69bac;
-    font-family: 'Mulish', sans-serif;
-    font-size: 48px;;
-}
-.container-fluid p{
-    color: #0000009c;
-    line-height: 25px;
-}
-.container-fluid img{
-    width: 100%;
-    padding-bottom: 63px;
-    padding-top: 16px;
-}
 .professional{
     margin-top: 0;
 }
@@ -433,7 +387,7 @@ header{
 .language-progress .progress-bar-2{
     width: 70%;
     animation-name: pers-bar-3;
-}
+} 
 #project{
     background-color: #000038;
 }

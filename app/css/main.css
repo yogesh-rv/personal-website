@@ -275,8 +275,31 @@ header{
     color: #c5c4c4;
     padding-bottom: 65px;
 }
+.skills-heading h2{
+    display: block;
+    font-size: 29px;
+    padding: 13px 20px 10px 40px;
+    background-color: #f69bac;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+    border-radius: 0 50px;
+}
 .professional{
     margin-top: 0;
+    padding-bottom: 50px;
+}
+.professional h3,
+.personal h3,
+.languages h3{
+    display: inline-block;
+    padding-bottom: 2px;
+    font-size: 22px;
+    font-weight: 100;
+    border-bottom: solid 2px #f69bac;
+    color: #00000094;
 }
 .prof-part{
     padding-top: 32px;
@@ -321,6 +344,7 @@ header{
 }
 .personal{
     margin-top: -13px;
+    padding-bottom: 50px;
 }
 .pers-part{
     padding-top: 32px;
@@ -388,6 +412,99 @@ header{
     width: 70%;
     animation-name: pers-bar-3;
 } 
+#resume{
+
+}
+.resume-heading h2{
+    display: block;
+    font-size: 29px;
+    padding: 13px 20px 10px 40px;
+    background-color: #f69bac;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+    border-radius: 0 50px;
+
+}
+.resume-heading p{
+    font-weight: 100;
+    color: #4b4453e8;
+    text-align: right;
+    padding: 3px 20px;
+}
+.education{
+    margin-top: 0;
+    padding-top: 23px;
+}
+.education h3{
+    display: inline-block;
+    padding-bottom: 2px;
+    font-size: 22px;
+    font-weight: 100;
+    border-bottom: solid 2px #f69bac;
+    color: #00000094;
+}
+.edu-wrapper{
+    padding-bottom: 50px;
+    margin-top: 21px;
+}
+.edu-item-1,
+.edu-item-2,
+.edu-item-3{
+    padding: 5px 0px 22px 20px;
+    margin-left: 5px;
+    border-left: 1px solid #f69bac;
+    position: relative;
+}
+.edu-item-1 p, .edu-item-2 p, .edu-item-3 p {
+    padding-top: 36px;
+}
+.edu-date{
+    line-height: 1;
+    font-size: 13px;
+    color: #00000096;
+}
+.edu-date::before{
+    content: "";
+    position: absolute;
+    background: #f69bac;
+    top: 4px;
+    left: -8px;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+}
+.edu-item-1 li,
+.edu-item-2 li,
+.edu-item-3 li{
+    list-style: inside;
+    font-size: 50px;
+    color: #ec8497
+}
+.edu-item-1 li span,
+.edu-item-2 li span,
+.edu-item-3 li span{
+    color: #00000085;
+    font-size: 14px;
+    padding-top: 4px;
+}
+.edu-item-1 h4,
+.edu-item-2 h4,
+.edu-item-3 h4{
+    padding-top: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0b0a0a;
+}
+.edu-item-1 p,
+.edu-item-2 p,
+.edu-item-3 p{
+    padding-top: 36px;
+    font-size: 23px;
+    color: #00000096;
+}
 #project{
     background-color: #000038;
 }

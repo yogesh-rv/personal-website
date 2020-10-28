@@ -28,33 +28,14 @@ body{
     border-color: white;
 }
 header{
-    background-color: #6d0eb1;
+    background-color: #f69bac;;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
 }
-.header-wrapper{
-    padding-left: 24px;
-    display: flex;
-    justify-content: space-between;
-}
-.header-wrapper .logo{
-    display: flex;
-    display: inline;
-}
-.header-wrapper .navigation{
-    display: none;
-}
-.hamburger-menu a{
-    display: inline-block;
-    border: solid 1px;
-    padding: 6px;
-    margin-top: 7px;
-    color: white;
-}
 #hero{
-    background-color: #6d0eb1;
+    background-color:#f69bac;
 }
 #hero p{
     text-align: center;
@@ -89,6 +70,9 @@ header{
 }
 .about-img img{
     max-width: 100%;
+}
+.about-wrapper-1{
+    width: 100%;
 }
 #about .about-form{
 

@@ -6,7 +6,10 @@
 }
 @media (min-width: 768px){
     header {
-        padding-bottom: 14px;
+        padding-bottom: 0px;
+    }
+    .header-logo img {
+        max-width: 115px;
     }
     #hero p {
         font-size: 29px;

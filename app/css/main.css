@@ -1,17 +1,16 @@
 body{
-    margin-top: 64px;
+    
 }
 .container{
     margin-left: auto;
     margin-right: auto;
     padding-right:30px;
     padding-left: 30px;
-    width: 86%;
 }
 .primary-button{
     color: white;
     display: inline-block;
-    background-color: deeppink;
+    background-color: #1b117b;
     text-decoration: none;
     padding: 10px 45px;
     font-size: 13px;
@@ -29,17 +28,37 @@ body{
     border-color: white;
 }
 header{
-    background-color: #f69bac;;
-    position: fixed;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: auto;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #ffff;
+    padding: 12px 20px;
     top: 0;
     left: 0;
 }
+.header-logo{
+    flex-basis: 50%;
+    display: inline-block;
+    line-height: 0px;
+}
 .header-logo img{
-    max-width: 35%;
+    width: 59%;
+    height: 100%;
+}
+.header-toggle{
+    flex-basis: 7%;
+    padding-top: 3px;
+    background-color: #fff;
+    border: solid #fff;
+}
+.header-toggle img{
+    height: 25px;
+    width: 21px;
 }
 #hero{
-    background-color:#f69bac;
+    background-color:#1b117b;
 }
 #hero p{
     text-align: center;
@@ -70,7 +89,7 @@ header{
 }
 #about .about-img{
     padding-bottom: 53px;
-    padding-top: 63px;
+    padding-top: 50px;
 }
 .about-img img{
     max-width: 100%;
@@ -267,7 +286,7 @@ header{
     display: block;
     font-size: 29px;
     padding: 13px 20px 10px 40px;
-    background-color: #f69bac;
+    background-color: #1b117b;
     color: #fff;
     line-height: 1.1;
     font-weight: 300;
@@ -312,7 +331,7 @@ header{
 .prof-progress .progress-bar-4{
     height: 100%;
     width: 80%;
-    background: #f69bac;
+    background: #1b117b;
     border-radius: 50px;
     position: relative;
     animation-name: prof-bar-1;
@@ -348,7 +367,7 @@ header{
 .pers-progress .progress-bar-4{
     height: 100%;
     width: 80%;
-    background: #f69bac;
+    background: #1b117b;
     border-radius: 50px;
     position: relative;
     animation-name: prof-bar-1;
@@ -387,7 +406,7 @@ header{
 .language-progress .progress-bar-2{
     height: 100%;
     width: 90%;
-    background: #f69bac;
+    background: #1b117b;
     border-radius: 50px;
     position: relative;
     animation-name: pers-bar-2;
@@ -407,7 +426,7 @@ header{
     display: block;
     font-size: 29px;
     padding: 13px 20px 10px 40px;
-    background-color: #f69bac;
+    background-color: #1b117b;
     color: #fff;
     line-height: 1.1;
     font-weight: 300;
@@ -492,163 +511,6 @@ header{
     padding-top: 36px;
     font-size: 23px;
     color: #00000096;
-}
-#project{
-    background-color: #000038;
-}
-#project .project-header{
-    padding-top: 55PX;
-}
-.project-header h2{
-    text-align: center;
-    color: white;
-    font-size: 22px;
-    font-family: monospace;
-}
-.project-header h2:after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 100px;
-    background-color: deeppink;
-    margin: auto;
-    position: relative;
-    top: 18px;
-}
-.project-header p{
-    color: white;
-    text-align: center;
-    padding-bottom: 50px;
-    padding-top: 38px;
-    line-height: 23px;
-}
-.project-images{
-
-}
-.project-images img{
-    max-width: 100%;
-    padding-bottom: 14px;
-    height: 255px;
-}
-.project-images h3{
-    color: yellow;
-    padding-bottom: 52px;
-}
-.project-button{
-    text-align: center;
-    padding-bottom: 66px;
-}
-#testimonial{
-    background-color: #f5f2f2;
-}
-#testimonial .testimonial-top{
-    padding-top: 57px;
-}
-.testimonial-top h1{
-    font-size: 22px;
-    font-family: monospace;
-    text-align: center;
-    padding-top: 66px;
-}
-.testimonial-top h1:after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 100px;
-    background-color: deeppink;
-    margin: auto;
-    position: relative;
-    top: 18px;
-}
-.testimonial-top-img{
-    text-align: center;
-    padding-top: 68px;
-    padding-bottom: 23px;
-}
-.testimonial-top img{
-    border-radius: 100px;
-    max-width: 80px;
-}
-.testimonial-top p{
-    text-align: center;
-    line-height: 21px;
-    color: #777373;
-}
-.testimonial-bottom{
-
-}
-.testimonial-bottom-comma{
-    text-align: center;
-}
-.testimonial-bottom-comma p{
-    font-size: 41px;
-    color: deeppink;
-    padding-bottom: 29px;
-}
-.testimonial-bottom h3{
-    text-align: center;
-    font-size: 18px;
-    font-family: monospace;
-    color: #903890;
-    padding-bottom: 8px;
-}
-.testimonial-bottom p {
-    text-align: center;   
-    padding-bottom: 38px;
-}
-#consultation{
-    background-color: #26268e;
-}
-.consult-wrapper{
-    padding-top: 63px;
-}
-.consult-wrapper .consult-left{
-
-}
-.consult-left h1{
-    text-align: center;
-    font-size: 24px;
-    line-height: 24px;
-    font-family: monospace;
-    color: #d0d012;
-    padding-bottom: 26px;
-}
-.consult-left p{
-    color: white;
-    padding-bottom: 35px;
-    text-align: center;
-    font-size: 17px;
-    line-height: 22px;
-}
-.consult-right{
-    padding-bottom: 44px;
-}
-.consult-right .consult-button{
-    text-align: center;
-}
-footer{
-    background-color: #211f1f;
-}
-.footer-icon-wrapper{
-    display: flex;
-    position: relative;
-    left: 52px;
-    padding-top: 49px;
-}
-.footer-icon-wrapper li {
-    list-style: none;
-    color: white;
-    font-size: 21px;
-    background-color: #2d2b2b;;
-    border-radius: 39%;
-    padding: 8px;
-}
-.footer-words{
-    color: white;
-    text-align: center;
-    padding-top: 44px;
-    padding-bottom: 46px;
-    line-height: 23px;
 }
 @keyframes prof-bar-1{
     0%{

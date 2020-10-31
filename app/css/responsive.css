@@ -137,6 +137,10 @@
     }
 }
 @media (min-width: 992px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
     .header-wrapper .logo {
         padding-left: 405px;
     }
@@ -173,6 +177,9 @@
         font-size: 18px;
         line-height: 29px;
     }
+    .resume-heading p {
+        text-align: center;
+    }
 }
 @media (min-width: 1200px){
     header{
@@ -189,6 +196,9 @@
     #hero h1 {
         font-size: 60px;
         padding-bottom: 50px;
+    }
+    .about-details-head h3{
+        font-size: 31px;
     }
     .over-image-1{
         display: flex;
@@ -211,6 +221,9 @@
     .skills-heading,
     .resume-heading{
         display: inline-block;
+    }
+    .resume-heading p {
+        text-align: center;
     }
     .about-wrapper-2 {
         display: block;

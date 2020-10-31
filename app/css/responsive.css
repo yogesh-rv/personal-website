@@ -1,0 +1,283 @@
+@media (min-width: 480px){
+    .about-circle{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 768px){
+    header {
+        padding-bottom: 0px;
+    }
+    .header-logo img {
+        width: 35%;
+        padding-top: 0px;
+    }
+    .header-toggle {
+        flex-basis: 7%;
+        padding-top: 0px;
+    }
+    .header-toggle img {
+        height: 23px;
+        width: 21px;
+        padding-left: 30px;
+        padding-top: 8px;
+    }
+    #hero p {
+        font-size: 29px;
+        padding-bottom: 28px;
+    }
+    #hero h1 {
+        font-size: 40px;
+        padding-bottom: 68px;
+    }
+    #hero .hero-contact{
+        padding-bottom: 68px;
+    }
+    .about-wrapper-2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-form .about-head {
+        padding-top: 72px;
+        font-family: monospace;
+    }
+    .about-form h2 {
+        font-size: 23px;
+    }
+    #about .about-img{
+        flex-basis: 48%;
+        padding-top: 162px;
+    }
+    #about .about-form {
+        flex-basis: 48%;
+    }
+    .form-name input {
+        height: 55px;
+    }
+    .form-email input{
+        height: 55px;
+    }
+    .form-message textarea{
+        height: 135px;
+    }
+    .primary-button{
+        padding: 19px 51px;
+    }  
+    #skills {
+        padding-top: 19px;
+    }
+    .skill-set{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 33px;
+    }
+    .professional{
+        flex-basis: 30%;
+    }
+    .personal{
+        flex-basis: 30%;
+        margin-top: 0px;
+    }
+    .languages{
+        flex-basis: 30%;
+        margin-top: 0px;
+    }
+    .about-details .about-details-head h3 {
+        font-size: 24px;
+    }
+    .about-details .about-details-head h1 {
+        font-size: 25px;
+    }
+    .about-4-info {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .about-4-info .about-skills {
+        flex-basis: 46%;
+    }
+    .about-4-info .about-awards {
+        flex-basis: 46%;
+    }   
+    .about-4-info .about-certificates {
+        padding-bottom: 42px;
+        flex-basis: 46%;
+    }
+    .about-4-info .about-contact {
+        flex-basis: 46%;
+    }    
+    .about-4-info h2 {
+        font-size: 19px;
+    font-family: sans-serif;
+    }
+    .about-4-info p{
+        font-size: 16px;
+    }
+    .skills-heading h2{
+        font-size: 53px;
+        border-radius: 0px 58px;
+        padding: 12px 40px;
+        margin: 0px 104px 0px 0px;
+
+    }
+    .resume-heading h2{
+        font-size: 53px;
+        border-radius: 0px 58px;
+        padding: 12px 40px;
+        margin: 0px 104px 0px 0px;
+    }
+    .skills-heading,
+    .resume-heading{
+        display: inline-block;
+    }
+    .skills-heading p{
+        text-align: right;
+        font-size: 16px;
+        padding-right: 105px;
+    }
+}
+@media (min-width: 992px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    .header-wrapper .logo {
+        padding-left: 405px;
+    }
+    .header-wrapper .logo h2 {
+        font-size: 25px;
+        padding-top: 18px;
+    }
+    .header-wrapper .logo p {
+        padding-left: 76px;
+    }
+    .about-wrapper-2 {
+        justify-content: flex-start;
+    }
+    #about .about-img {
+        padding-top: 133px;
+    }
+    .about-details .about-details-head p {
+        font-size: 18px;
+        padding-bottom: 48px;
+    }
+    .about-circle {
+        padding-bottom: 23px;
+    }
+    .about-contact-text {
+        margin-right: 113px;
+    }
+    .about-text-between {
+        padding-bottom: 19px;
+    }
+    .about-4-info p {
+        line-height: 35px;
+    } 
+    .about-4-info p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .resume-heading p {
+        text-align: center;
+    }
+}
+@media (min-width: 1200px){
+    header{
+        padding: 0px 20px;
+    }
+    .header-logo img {
+        width: 20%;
+    }
+    #hero p {
+        font-size: 29px;
+        padding-bottom: 24px;
+        padding-top: 0px;
+    }
+    #hero h1 {
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+    .about-details-head h3{
+        font-size: 31px;
+    }
+    .over-image-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .over-img-1{
+        position: relative;
+        bottom: 30px;
+        left: 104px;  
+    }
+    .over-img-2{
+        position: relative;
+        bottom: 23px;
+        right: 28px;
+    }
+    .skills-heading h2{
+        font-size: 55px;
+        padding: 10px 40px;
+    }
+    .skills-heading,
+    .resume-heading{
+        display: inline-block;
+    }
+    .resume-heading p {
+        text-align: center;
+    }
+    .about-wrapper-2 {
+        display: block;
+        flex-basis: 30%;
+        margin-left: 52px;
+    }
+    .about-wrapper-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    #about .about-details {
+        flex-basis: 60%;
+        margin-top: 137px;
+    }
+    .about-img img {
+        max-width: 330px;
+        max-height: 330px;
+    }
+    .form-name input {
+        width: 92%;
+    }
+    .form-email input {
+        width: 92%;
+    }
+    .form-message textarea {
+        width: 92%;
+    }
+    .about-details .about-details-head h1 {
+        font-size: 35px;
+    }
+    .about-circle-1 h2 {
+        font-size: 23px;
+    }
+    .about-circle-2 h1 {
+        font-size: 23px;
+    }
+    .about-circle-3 h1 {
+        font-size: 23px;
+    }
+    .about-circle {
+        padding-bottom: 55px;
+    }
+    .about-4-info h2 {
+        font-size: 19px;
+    }
+    .about-4-info .about-certificates,
+    .about-4-info .about-contact{
+        padding-top: 75px;
+     }
+     .skill-set {
+        padding-left: 35px;
+    }
+    .personal {
+        margin-top: 0px;
+    }
+
+}
